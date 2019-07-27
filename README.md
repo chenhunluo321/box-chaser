@@ -1,7 +1,6 @@
 <p align="center">
-  <a href="" rel="noopener">
- ![image](https://user-images.githubusercontent.com/32112516/61998159-3fe67c80-b09b-11e9-83ca-e4091389fb68.png)
-</a>
+![image](https://user-images.githubusercontent.com/32112516/61998159-3fe67c80-b09b-11e9-83ca-e4091389fb68.png)
+
 </p>
 
 <h3 align="center">Project Title</h3>
