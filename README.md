@@ -25,6 +25,10 @@ This game is mainly about JavaScript element selection and manipulation. The gri
 
 Open box_.html with any web browser. If you are using Microsoft Internet Explorer, it need to be after version 2.0
 
+## 🦄 Demo
+
+![ezgif com-crop](https://user-images.githubusercontent.com/32112516/61998951-fef46500-b0a6-11e9-9509-51fd2d2f7058.gif)
+
 ## 🎈 Code Walk Through
 
 The style section is the CSS defining the size of the grid and how the elements in the game will looks like
