@@ -2,99 +2,73 @@
     <a href="" rel="noopener">
  <img height= 210 width = 280 src="https://user-images.githubusercontent.com/32112516/61998159-3fe67c80-b09b-11e9-83ca-e4091389fb68.png" alt="Project logo"></a>
 
-<h3 align="center">Project Title</h3>
+<h3 align="center">Box Chaser</h3>
 
 <div align="center">
 
-  [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
-  [![GitHub Issues](https://img.shields.io/github/issues/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/issues)
-  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/kylelobo/The-Documentation-Compendium.svg)](https://github.com/kylelobo/The-Documentation-Compendium/pulls)
-  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
+  <img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/downloads-0k-yellow.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/build-passing-yellow.svg?style=flat-square">
 
 </div>
 
 ---
 
-<p align="center"> Few lines describing your project.
+<p align="center">
     <br> 
 </p>
 
-## 📝 Table of Contents
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Deployment](#deployment)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Authors](#authors)
-- [Acknowledgments](#acknowledgement)
+## 🧐 About 
+This game is mainly about JavaScript element selection and manipulation. The grid size will be dynamically builded with JavaScript and the key event listeners will be handling the key press and moving element. User will be able to move the red box around with arror keys, once it overlap with the green box, the score variable will be increment by one and the green box will be randomly placed in a new position within the grid
 
-## 🧐 About <a name = "about"></a>
-Write about 1-2 paragraphs describing the purpose of your project.
+## 🏁 Installing
 
-## 🏁 Getting Started <a name = "getting_started"></a>
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+Open box_.html with any web browser. If you are using Microsoft Internet Explorer, it need to be after version 2.0
 
-### Prerequisites
-What things you need to install the software and how to install them.
+## 🎈 Code Walk Through
+```html
+        .gameArea {
+            width: 800px;
+            height: 600px;
+        }
 
-```
-Give examples
-```
+        .score {
+            font-size: 3em;
+        }
 
-### Installing
-A step by step series of examples that tell you how to get a development env running.
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
 
-Say what the step will be
+        .square {
+            position: relative;
+            border: 1px solid #ddd;
+            width: 98px;
+            height: 98px;
+            display: inline-block;
+            text-align: center;
+            vertical-align: middle;
+            line-height: 100px;
+            font-size: 24px;
+            color: #ddd;
+        }
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo.
-
-## 🔧 Running the tests <a name = "tests"></a>
-Explain how to run the automated tests for this system.
-
-### Break down into end to end tests
-Explain what these tests test and why
+        .active {
+            background-color: green;
+            color: white;
+        }
 
 ```
-Give an example
-```
-
-### And coding style tests
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## 🎈 Usage <a name="usage"></a>
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [HTML] - Programming Language
+- [CSS] - Programming Language
+- [JavaScript] - Programming Language
+- [Atom] - Text Editor
 
-## ✍️ Authors <a name = "authors"></a>
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
+## License
 
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
-
-## 🎉 Acknowledgements <a name = "acknowledgement"></a>
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+🌱 MIT 🌱
