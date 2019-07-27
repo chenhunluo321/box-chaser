@@ -1,6 +1,6 @@
 <p align="center">
-![image](https://user-images.githubusercontent.com/32112516/61998159-3fe67c80-b09b-11e9-83ca-e4091389fb68.png)
-</p>
+    <a href="" rel="noopener">
+ <img src="https://user-images.githubusercontent.com/32112516/61998159-3fe67c80-b09b-11e9-83ca-e4091389fb68.png" alt="Project logo"></a>
 
 <h3 align="center">Project Title</h3>
 
